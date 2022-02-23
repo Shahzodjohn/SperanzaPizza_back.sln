@@ -1,0 +1,1 @@
+dotnet /home/nodirakosimova/Desktop/C#/robot/SPToCore/SPToCore/bin/Debug/net5.0/SPToCore.dll scan -cnn "Server=localhost,1433;Database=dbPizza;User ID=sa;Password=MssqlPassword123;" -sch "*" -nsp SperanzaPizzaApi -ctx dbPizzaContext -sf Models -pf ./Models/ -f SPToCoreContext.cs 
